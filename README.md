@@ -52,7 +52,7 @@ En attente je mettrais ici ce qu'il faut
 
 ## Fabriqué avec
 
-* [Php] (https://www.php.net/) - angage de script généraliste populaire particulièrement adapté au développement Web
+* [Php](https://www.php.net/) - angage de script généraliste populaire particulièrement adapté au développement Web
 * [Django](https://www.djangoproject.com/) - Framwork python qui nous a servi de mettre en place l'app cliente
 * [MySql](https://www.mysql.com/fr/) - pur la base de données
 * [VsCode](https://code.visualstudio.com/) - Éditeur de code
