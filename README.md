@@ -43,8 +43,8 @@ Créer une application Java (ou Python) permettant de gérer les utilisateurs. Q
 
 ### Installation
 
-Pour l'installations de l'ensemble des packages utilisés dans ce projet saisir la commande:
-pip install -r requirements.txt
+Pour l'installations de l'ensemble des packages utilisés dans les services web et l'application cliente saisir la commande:
+pip install -r requirements.txt en se plaçant dans le répertoire djangoCrudExample
 
 ## Démarrage
 
