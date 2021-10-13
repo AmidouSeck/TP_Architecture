@@ -48,7 +48,8 @@ pip install -r requirements.txt
 
 ## Démarrage
 
-En attente je mettrais ici ce qu'il faut
+- Pour le démarrage du site web il suffit de palcer le dossier TP_Architecture dans le répertoire htdocs de MAMP(MAC OS) ou XAMP(LINUX OU WINDOWS) ou dans le répertoire www de WAMP(WINDOWS), démarrer le serveur puis lancer le projet TP_Architecture.
+- pour lancer les services Web et l'application cliente il suffit de se placer dans le répertoire djangoCrudExample et de lancer la commande: python manage.py runserver en ligne de commande.
 
 ## Fabriqué avec
 
