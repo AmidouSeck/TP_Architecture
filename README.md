@@ -62,6 +62,7 @@ pip install -r requirements.txt en se plaçant dans le répertoire djangoCrudExa
 ## Auteurs
 
 * **Mohamed Amidou Seck** _alias_ [@AmidouSeck](https://github.com/AmidouSeck)
+* **Modou Mar** _alias_ [@Modou105](https://github.com/Modou105)
 
 ## License
 
