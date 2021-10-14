@@ -27,7 +27,7 @@
     <body style='background:#fff;'>
         <div id="content">
             <!-- tester si l'utilisateur est connecté -->
-            <a class="btn btn-primary" style="float: right; margin:5px" href='principale.php?deconnexion=true'><span class="fa fa-sign-out">Déconnexion</span></a>
+            <a class="btn btn-primary" style="float: right; margin:5px" href='editor_home_page.php?deconnexion=true'><span class="fa fa-sign-out">Déconnexion</span></a>
             <?php
                 session_start();
                 if(isset($_GET['deconnexion']))
