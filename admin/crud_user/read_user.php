@@ -1,5 +1,5 @@
 <?php
-// Check existence of id parameter before processing further
+// Check existence of id parameter before processing 
 if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
     // Include config file
     require_once "../config.php";
@@ -72,7 +72,7 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
                     <h1 class="mt-5 mb-3">Détails de l'utilisateur</h1>
                     <div class="form-group">
                         <label>Prénom</label>
-                        <p><b><?php echo $row["prenom"]; ?></b></p>
+                        <p><b><?php echo $row["prénom"]; ?></b></p>
                     </div>
                     <div class="form-group">
                         <label>Nom</label>
