@@ -23,7 +23,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($input_mot_de_passe)){
         $mot_de_passe_err = "Entrez le mot de passe.";     
     } elseif(!ctype_digit($input_mot_de_passe)){
-        $mot_de_passe_err = "Entrez un mote de passe valide.";
+        $mot_de_passe_err = "Entrez un mot de passe valide.";
     } else{
         $mot_de_passe = $input_mot_de_passe;
     }
