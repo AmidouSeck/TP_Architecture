@@ -28,10 +28,14 @@ if(isset($_POST['username']) && isset($_POST['password']))
            $_SESSION['username'] = $username;
            header('Location: ../admin/principale.php');
         }
-        else if($count!=0 && $reponse['roles'] != 'admin') {
+        else if($count!=0 && $reponse['roles'] != 'editor') {
             $_SESSION['username'] = $username;
            header('Location: ../editor/editor_home_page.php');
         }
+        else if($count!=0 && $reponse['roles'] != 'visitor') {
+         $_SESSION['username'] = $username;
+        header('Location: ../index.php');
+     }
         else
         {
            header('Location: ../login.php?erreur=1'); // utilisateur ou mot de passe incorrect
