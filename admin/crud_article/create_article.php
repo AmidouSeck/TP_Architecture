@@ -28,7 +28,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     // Validate salary
     $input_categorie = trim($_POST["categorie"]);
-    if(empty($input_categorie)){
+    if(empty($input_categorie)){ 
+     //entre de la categorie
         $categorie_err = "Entrez la catégorie.";     
     } elseif(!ctype_digit($input_categorie)){
         $categorie_err = "Entrez une catégorie valide.";
