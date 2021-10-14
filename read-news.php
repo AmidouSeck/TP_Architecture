@@ -47,7 +47,7 @@ include_once('/Applications/MAMP/htdocs/Tp Architecture/includes/functions.php')
 
                 <?php endif?>
                 <div class="footer">
-            Amidou Seck &copy; <?= date("Y") ?> - Tous droits réservés.
+            Groupe 5 &copy; <?= date("Y") ?> - Tous droits réservés.
         </div>
             </div>
 
