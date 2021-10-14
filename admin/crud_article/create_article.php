@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($input_titre)){
         $titre_err = "Entrez le titre.";
     } elseif(!filter_var($input_titre, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^[a-zA-Z\s]+$/")))){
-        $titre_err = "Entrer un titre valide.";
+        $titre_err = "Entrer un titre  valide.";
     } else{
         $titre = $input_titre;
     }
@@ -37,7 +37,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $categorie = $input_categorie;
     }
     
-    // Check input errors before inserting in database
+    // Check input errors before inserting in  database
     if(empty($titre_err) && empty($contenu_err) && empty($categorie_err)){
         // Prepare an insert statement
         $sql = "INSERT INTO Article (titre, contenu, categorie) VALUES (?, ?, ?)";
