@@ -76,7 +76,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
         // Get URL parameter
         $id =  trim($_GET["id"]);
         
-        // Prepare a select statement
+        // Preparation du statement
         $sql = "SELECT * FROM Article WHERE id = ?";
         if($stmt = $mysqli->prepare($sql)){
             // Bind variables to the prepared statement as parameters
@@ -105,7 +105,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
                 }
                 
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+              
             }
         }
         
