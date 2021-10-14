@@ -26,7 +26,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $contenu = $input_contenu;
     }
     
-    // Validate salary
+    // Validation
     $input_categorie = trim($_POST["categorie"]);
     if(empty($input_categorie)){ 
      //entre de la categorie
