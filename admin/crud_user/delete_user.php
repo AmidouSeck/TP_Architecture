@@ -8,19 +8,19 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
     $sql = "DELETE FROM utilisateur WHERE id = ?";
     
     if($stmt = $mysqli->prepare($sql)){
-        // Bind variables to the prepared statement as parameters
+        // Bind variable 
         $stmt->bind_param("i", $param_id);
         
         // Set parameters
         $param_id = trim($_POST["id"]);
         
-        // Attempt to execute the prepared statement
+        
         if($stmt->execute()){
             // Records deleted successfully. Redirect to landing page
             header("location: ../utilisateur.php");
             exit();
         } else{
-            echo "Oops! une erreur est survenue, veuillez réessayer plus tard.";
+            echo "Oops! une erreur est survenue, veuillez réessayer plus tard s'il vous plait.";
         }
     }
      
@@ -61,7 +61,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                         <div class="alert alert-danger">
                             <input type="hidden" name="id" value="<?php echo trim($_GET["id"]); ?>"/>
-                            <p>Êtes-vous sûr(e) de vouloir supprimer cet utlisateur?</p>
+                            <p>Êtes-vous sûr(e) de  bien vouloir supprimer cet utlisateur?</p>
                             <p>
                                 <input type="submit" value="Oui" class="btn btn-danger">
                                 <a href="../utlisateur.php" class="btn btn-secondary ml-2">Non</a>
