@@ -48,7 +48,7 @@
                         <a href="crud_user/create_user.php" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Ajouter un utilisateur</a>
                     </div>
                     <?php
-                    // Include config file
+                    
                     define('DB_SERVER', 'localhost');
                     define('DB_USERNAME', 'root');
                     define('DB_PASSWORD', 'root');
@@ -98,7 +98,7 @@
                         echo "Oops! Something went wrong. Please try again later.";
                     }
                     
-                    // Close connection
+                    // Close connexion
                     $mysqli->close();
                     ?>
                 </div>
