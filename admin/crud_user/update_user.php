@@ -1,4 +1,12 @@
-
+<?php
+// Include config file
+//ini_set('display_errors', 'on');
+require_once "../config.php";
+ 
+// Define variables and initialize with empty values
+$nom_utilisateur = $mot_de_passe = $role = $prenom = $nom =  "";
+$nom_utilisateur_err = $mot_de_passe_err = $role_err = $prenom_err = $nom_err = "";
+ 
 // Processing form data when form is submitted
 if(isset($_POST["id"]) && !empty($_POST["id"])){
     // Get hidden input value
