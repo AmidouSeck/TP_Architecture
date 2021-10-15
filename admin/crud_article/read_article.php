@@ -11,7 +11,7 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
         // Bind variables to the prepared statement as parameters
         $stmt->bind_param("i", $param_id);
         
-        // Set parameters
+        // Set   parameters
         $param_id = trim($_GET["id"]);
         
         // Attempt to execute the prepared statement
