@@ -27,7 +27,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
     // Close statement
     $stmt->close();
     
-    // Close connection
+   
     $mysqli->close();
 } else{
     // Check existence of id parameter
