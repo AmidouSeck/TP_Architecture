@@ -7,7 +7,7 @@ L’objectif de ce projet est de mettre en œuvre les compétences acquises dans
 ## Pour commencer
 ##Lien du tutoriel Youtube
 
-https://youtu.be/FKzHIX4JUj8
+https://www.youtube.com/watch?v=p2T1cR0EySE
 
 
 ### Contenu du projet
